@@ -4,6 +4,8 @@
 
 ### Features Added
 
+- Adding DynamicConcurrency support
+
 ### Breaking Changes
 
 ### Bugs Fixed
