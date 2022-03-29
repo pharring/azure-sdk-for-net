@@ -1268,8 +1268,8 @@ namespace Azure.Storage.Blobs
         /// notifications that the operation should be cancelled.
         /// </param>
         /// <returns>
-        /// A <see cref="Response{BlobServiceStatistics}"/> describing
-        /// the service replication statistics.
+        /// A <see cref="Response{UserDelgationKey}"/> which may be used to
+        /// create shared access signatures with <see cref="Sas.BlobSasBuilder"/>.
         /// </returns>
         /// <remarks>
         /// A <see cref="RequestFailedException"/> will be thrown if
@@ -1304,8 +1304,8 @@ namespace Azure.Storage.Blobs
         /// notifications that the operation should be cancelled.
         /// </param>
         /// <returns>
-        /// A <see cref="Response{BlobServiceStatistics}"/> describing
-        /// the service replication statistics.
+        /// A <see cref="Response{UserDelgationKey}"/> which may be used to
+        /// create shared access signatures with <see cref="Sas.BlobSasBuilder"/>.
         /// </returns>
         /// <remarks>
         /// A <see cref="RequestFailedException"/> will be thrown if
@@ -1341,8 +1341,8 @@ namespace Azure.Storage.Blobs
         /// </param>
         /// <param name="async"/>
         /// <returns>
-        /// A <see cref="Response{BlobServiceStatistics}"/> describing
-        /// the service replication statistics.
+        /// A <see cref="Response{UserDelgationKey}"/> which may be used to
+        /// create shared access signatures with <see cref="Sas.BlobSasBuilder"/>.
         /// </returns>
         /// <remarks>
         /// A <see cref="RequestFailedException"/> will be thrown if
