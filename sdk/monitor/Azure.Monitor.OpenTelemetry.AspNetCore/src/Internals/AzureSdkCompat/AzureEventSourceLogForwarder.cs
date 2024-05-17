@@ -67,7 +67,7 @@ namespace Azure.Monitor.OpenTelemetry.AspNetCore.Internals.AzureSdkCompat
         {
             if (_loggerFactory != null)
             {
-                _listener ??= new AzureEventSourceListener((e, s) => LogEvent(e), EventLevel.Verbose);
+                _listener ??= new AzureEventSourceListener(LogEvent, EventLevel.Verbose);
             }
 
             return Task.CompletedTask;
